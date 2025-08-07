@@ -100,7 +100,11 @@ npx prettier --write .
 - Evitar subir \`.env\` o \`node_modules\` al repositorio.
 - Recomendado: probar la app como \`admin@coder.com\` para testear permisos.
 - Incluye manejo de errores, validaciones y mensajes claros.
+- Se  enviara el .env como archivo en la entrega ya que posee info sensible.
+
+
+Este README fue generado con IA
 
 ---
 
-¿Listo para probarlo? 🚀
+
