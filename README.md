@@ -21,20 +21,21 @@ Incluye autenticación con JWT y recuperación de contraseña, sistema de carrit
 
 ## 📁 Estructura del proyecto
 
-\`\`\`
+```
 src/
-├── config/               # Configuración de DB y Passport
-├── controllers/          # Lógica de cada endpoint
-├── dao/                  # Data Access Object
-├── dtos/                 # Data Transfer Objects (DTOs)
-├── middleware/           # Middlewares de auth, roles, etc
-├── models/               # Esquemas de Mongoose
-├── repositories/         # Abstracción del DAO (Repository Pattern)
-├── routes/               # Rutas de la API
-├── services/             # Lógica de negocio
-├── utils/                # Helpers y utilidades (hash, tokens, email)
-└── app.js                # App principal
-\`\`\`
+├── config/         # Configuración de DB y Passport
+├── controllers/    # Lógica de cada endpoint
+├── dao/            # Data Access Object
+├── dtos/           # Data Transfer Objects (DTOs)
+├── middleware/     # Middlewares de auth, roles, etc
+├── models/         # Esquemas de Mongoose
+├── repositories/   # Abstracción del DAO (Repository Pattern)
+├── routes/         # Rutas de la API
+├── services/       # Lógica de negocio
+├── utils/          # Helpers y utilidades (hash, tokens, email)
+└── app.js          # App principal
+```
+
 
 ---
 
@@ -43,7 +44,7 @@ src/
 1. Clonar el repositorio:
 
 \`\`\`bash
-git clone https://github.com/tuusuario/entrega-final-backend-2.git
+git clone https://github.com/Izxy86/Entrega-final-backend-2.git
 cd entrega-final-backend-2
 \`\`\`
 
